@@ -1,4 +1,15 @@
 
+    /*
+
+            Demultiplexer
+
+        sel |       a       b
+
+        0   |       in      0
+        1   |       0       in
+
+    */
+
 
 module dmux (
     input wire in,
