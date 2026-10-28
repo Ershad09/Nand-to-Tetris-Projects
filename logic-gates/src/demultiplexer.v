@@ -15,7 +15,7 @@ module dmux (
     input wire in,
     input wire sel,
     output wire a,
-    output wire b,
+    output wire b
 );
 
   wire not_sel;

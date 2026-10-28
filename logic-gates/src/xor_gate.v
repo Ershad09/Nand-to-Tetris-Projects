@@ -48,8 +48,8 @@ module xor_gate (
 //  ----
 
     nand_gate g4 (
-        .a(y)
-        .b(z)
+        .a(y),
+        .b(z),
         .out(out)
     );
 

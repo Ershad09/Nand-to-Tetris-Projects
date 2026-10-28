@@ -25,9 +25,9 @@ module mux (
     output wire out
 );
 
-    wire sel_inverse,
-    wire nand_a_result,
-    wire nand_b_result
+    wire sel_inverse;
+    wire nand_a_result;
+    wire nand_b_result;
 
     nand_gate make_sel_opposite (
         .a(sel),
