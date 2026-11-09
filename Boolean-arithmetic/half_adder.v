@@ -13,3 +13,4 @@ module half_adder (
     assign carry = a & b; 
     
 endmodule
+
