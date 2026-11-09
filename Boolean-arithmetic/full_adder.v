@@ -1,5 +1,3 @@
-
-
 module full_adder (
     input wire a,
     input wire b,
@@ -9,16 +7,14 @@ module full_adder (
     output wire carry_out
 );
 
-
     wire partial_sum;
-    wire carry_1,
-    wire carry_2;
+    wire carry_1, carry_2;
 
     half_adder h1 (
-            .a(a),
-            .b(b),
-            .sum(partial_sum),
-            .carry(carry_1)
+        .a(a),
+        .b(b),
+        .sum(partial_sum),
+        .carry(carry_1)
     );
 
     half_adder h2 (
@@ -27,7 +23,6 @@ module full_adder (
         .sum(sum),
         .carry(carry_2)
     );
-
 
     assign carry_out = carry_1 | carry_2;
 

@@ -28,3 +28,7 @@ desktop.ini
 # Backup files
 *.bak
 *.tmp
+
+
+# Compiled Verilog simulation
+arithmetic_sim
